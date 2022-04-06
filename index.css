@@ -127,20 +127,22 @@ body{
       position:relative;
       top:100px;
       color:white;
+      display:flex;
+      flex-direction: row;
 }
 
 #main-bar{
-      width:73%;
+      width:77%;
       height:auto;
-      /* border:1px solid white; */
+      border:1px solid white;
       display:inline-block;
 }
 #side-bar{
-      width:26%;
+      width:23%;
       height:85vh;
       overflow-y:scroll;
       scrollbar-color: red ;
-      /* border:1px solid pink; */
+      border:1px solid pink;
       display:inline-block;
 }
 
@@ -254,4 +256,37 @@ body{
       font-weight:bold;
       font-size:0.7rem;
       opacity:0.5;
+}
+
+/* main bar started */
+
+
+#main-bar{
+   display:flex;
+   flex-direction: column;
+   height:auto;
+}
+
+#popular-artist{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+
+.artist{
+      height:130px;
+      width:130px;
+}
+
+.artist img{
+      height:100%;
+      width:100%;
+      border-radius: 50%;
+}
+
+.artist-name{
+      text-align:center;
+      font-weight:600;
+      font-size:15px;
+      font-family:sans-serif;
 }
