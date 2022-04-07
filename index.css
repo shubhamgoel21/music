@@ -497,3 +497,42 @@ body{
 .artist-details .artist-name-subheading{
       font-size: 10px;
 }
+
+/* section 0 */
+
+#section0{
+      position:relative;
+      height:43vh;
+      width:100%;
+}
+#section0 img{
+      height:90%;
+      width:40%;
+      transition: 1s all ease-in-out;
+}
+
+#img1{
+      position :absolute;
+      top:0px;
+      left:5%;
+      
+}
+
+#img2{
+      position:absolute;
+      top:0px;
+      left:25%;
+      z-index: 1;
+}
+#img3{
+      position:absolute;
+      top:0px;
+      left:55%;
+}
+
+#section0 img:hover{
+      transform: scale(1.5);
+      height:100%;
+      width:35%;
+      z-index: 2;
+}
